@@ -35,3 +35,16 @@ body { font-family: var(--primary-font); color: var(--dark-gray); background: #f
 /* Footer */
 .site-footer { background: var(--light-gray); padding: 1rem 0; text-align: center; font-size: 0.9rem; }
 .site-footer a { color: var(--accent); text-decoration: none; }
+/*DarkMood*/
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+body.dark-mode a {
+    color: #bb86fc;
+}
+body.dark-mode button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+}
