@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <button id="darkModeToggle">Toggle Dark Mode</button>
   <header class="site-header">
     <div class="container">
       <div class="logo">Md Mozammel Hoque</div>
@@ -69,5 +70,10 @@
       <p>&copy; 2025 Md Mozammel Hoque. Built with ❤️ on GitHub Pages.</p>
     </div>
   </footer>
+  <script>
+document.getElementById('darkModeToggle').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+});
+</script>
 </body>
 </html>
